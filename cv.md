@@ -1,21 +1,24 @@
-#**Tatyana Kyzmina**
+# **Tatyana Kyzmina**
 
-###Contact me through:
+### Contact me through:
+
 [Telegram](https://t.me/tkyzmina)
 [Email](mailto:boxforstaf@gmail.com)
 _My Discord acc is Tatyana Kyzmina (@tkyzmina) #4564_
 
-##Personal Info
+## Personal Info
+
 I am trying to switch to IT by becoming Front-End developer. Having good experience as purchasing manager I have good understanding of business processes and strong English (Upper Intermediate).
 
-##My skills
+## My skills
+
 -HTML
 -CSS (Sass)
 -JS
 -GIT
 -GILP
 
-##Code examples
+## Code examples
 
 ```
 const renderList = () => {
@@ -31,9 +34,11 @@ const renderList = () => {
   };
 ```
 
-##Education
+## Education
+
 [Saint-Petersburg University of Management Technologies and Economics](https://en.spbume.ru/en/) Master Management Degree
 HTML Academy
 
-##English
-_Upper Intermediate - B2_
+## English
+
+**Upper Intermediate - B2**
