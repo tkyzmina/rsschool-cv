@@ -36,7 +36,7 @@ const renderList = () => {
 
 ## Education
 
-[Saint-Petersburg University of Management Technologies and Economics](https://en.spbume.ru/en/) Master Management Degree
+[Saint-Petersburg University of Management Technologies and Economics](https://en.spbume.ru/en/) **Master Management Degree**
 
 HTML Academy
 
