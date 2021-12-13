@@ -2,9 +2,9 @@
 
 ### Contact me through:
 
-[Telegram](https://t.me/tkyzmina)
-[Email](mailto:boxforstaf@gmail.com)
-_My Discord acc is Tatyana Kyzmina (@tkyzmina) #4564_
+- [Telegram](https://t.me/tkyzmina)
+- [Email](mailto:boxforstaf@gmail.com)
+- _My Discord acc is Tatyana Kyzmina (@tkyzmina) #4564_
 
 ## Personal Info
 
@@ -12,11 +12,11 @@ I am trying to switch to IT by becoming Front-End developer. Having good experie
 
 ## My skills
 
--HTML
--CSS (Sass)
--JS
--GIT
--GILP
+- HTML
+- CSS (Sass)
+- JS
+- GIT
+- GULP
 
 ## Code examples
 
@@ -37,6 +37,7 @@ const renderList = () => {
 ## Education
 
 [Saint-Petersburg University of Management Technologies and Economics](https://en.spbume.ru/en/) Master Management Degree
+
 HTML Academy
 
 ## English
