@@ -1,17 +1,36 @@
 .footer {
+    background-color: bisque;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
     &__list {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
         margin: 0;
         padding: 0;
         list-style: none;
     }
 
-    &__link {
-        transition: $default-transition-settings;
-
-        &:hover {
-            opacity: 0.2;
+    &__item {
+        &--date {
+            align-self: end;
         }
+    }
+
+    &__link {
+        img {
+            transition: opacity $default-transition-settings;
+        }
+
+        &:hover img {
+            opacity: 0.5;
+        }
+    }
+
+    &__date {
+        font-weight: 600;
+        color: $color-blue;
     }
 
 }

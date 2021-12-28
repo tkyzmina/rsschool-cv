@@ -67,7 +67,6 @@
     &__skills-item {
         margin-bottom: 10px;
         color: $color-blue;
-        font-weight: 600;
     }
 
     &__skills-item>ul {
@@ -84,4 +83,13 @@
         color: $color-black;
         text-decoration: underline;
     }
+
+    &__projects {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__project {}
 }

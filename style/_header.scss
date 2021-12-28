@@ -1,8 +1,11 @@
 .header {
-    display: flex;
-    padding-top: 24px;
-    margin-bottom: 24px;
     background-color: bisque;
+
+    &__inner {
+        display: flex;
+        padding-top: 24px;
+        margin-bottom: 24px;
+    }
 
     &__wrapper {
         margin-right: 40px;
