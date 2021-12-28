@@ -1,0 +1,12 @@
+.page {
+    display: flex;
+
+    &__wrapper {
+        margin-right: 40px;
+
+        &:last-of-type {
+            margin-right: 0;
+            flex-grow: 0;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.footer {
+    &__list {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__link {
+        transition: $default-transition-settings;
+
+        &:hover {
+            opacity: 0.2;
+        }
+    }
+
+}
