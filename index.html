@@ -6,11 +6,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Tatyana Kyzmina</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/css/index.css">
 
 </head>
 
 <body>
+    <header class="header container">
+        <div class="header__wrapper">
+            <h1 class="header__title title">Tatyana Kyzmina</h1>
+            <p class="header__subtitle">Frontend Developer</p>
+            <nav class="header__nav">
+                <h2 class="header__nav-title">Contact me through:</h2>
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="mailto:boxforstaf@gmail.com">boxforstaf@gmail.com</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="https://t.me/tkyzmina" target="_blank" rel=”noopener”>Telegram</a>
+                    </li>
+                    <li class="header__item">
+                        <span>Discord @tkyzmina #4564</span>
+                    </li>
+                    <li class="header__item">
+                        <span>Saint-Petersburg, Ruissia</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <img class="header__img" src="img/Tatyana Kyzmina.jpg" alt="Tatyana Kyzmina">
+    </header>
+
+    <main class="container">
+        <section class="features">
+            <h2 class="features__title">Experience</h2>
+            <ul class="features__list">
+                <li class="features__item">
+                    <h3 class="features__title">HTML Developer</h3>
+                    <p class="features__subtitle">Liga A</p>
+                    <span class="features__date">Okt 2020 - May 2021</span>
+                </li>
+                <li class="features__item">
+                    <h3 class="features__title">Product supply manager</h3>
+                    <p class="features__subtitle">Nordsport LLS</p>
+                    <span class="features__date">Apr 2011 - Feb 2020</span>
+                </li>
+            </ul>
+        </section>
+        <section class="features">
+            <h2 class="features__title">Education</h2>
+            <ul class="features__list">
+                <li class="features__item">
+                    <h3 class="features__title">Frontend Developer</h3>
+                    <p class="features__subtitle">HTML Academy</p>
+                    <span class="features__date">Sep 2019 - Mar 2020</span>
+                </li>
+                <li class="features__item">
+                    <h3 class="features__title">Master Management Degree</h3>
+                    <p class="features__subtitle">Saint-Petersburg University of Management Technologies and Economics
+                    </p>
+                    <span class="features__date">Sep 2004 - May 2010</span>
+                </li>
+            </ul>
+        </section>
+        <section class="features">
+            <h2 class="features__title">Summary</h2>
+            <p class="features__text">
+                I am trying to switch to IT by becoming Front-End developer. Having good experience as purchasing
+                manager I have good understanding of business processes and strong English (Upper Intermediate).
+            </p>
+        </section>
+        <section class="features">
+            <h2 class="features__title">Code examples</h2>
+            <code class="features__code">
+                const renderList = () => {
+                    let container = document.querySelector(".section__list"); 
+                    let randomNum = Math.floor(Math.random() * 8 + 2);
+                    let element = document.querySelector(".accordion");
+                
+                    for (let i = 0; i < randomNum; i++) {
+                      let clone = element.cloneNode(true);
+                      container.append(clone);
+                    }
+                    initAccordion();
+                  };
+            </code>
+        </section>
+        <section class="features">
+            <h2 class="features__title">My projects</h2>
+            <ul>
+                <li>One</li>
+                <li>Two</li>
+            </ul>
+        </section>
+        <section class="features">
+            <h2 class="features__title">My skills</h2>
+            <ul class="features__skills-list">
+                <li class="features__skills-item">Coding
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SASS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+                <li class="features__skills-item">Tools
+                    <ul>
+                        <li>VS Code</li>
+                        <li>Git</li>
+                        <li>Npm</li>
+                        <li>Gulp</li>
+                        <li>Figma</li>
+                    </ul>
+                </li>
+                <li class="features__skills-item">Languages
+                    <ul>
+                        <li>English Upper Intermediate (B2)</li>
+                        <li>Russian (Native)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+
+    </footer>
+
 
 </body>
 
