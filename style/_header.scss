@@ -1,5 +1,5 @@
 .header {
-    background-color: bisque;
+    background-color: $color-bisque;
 
     &__inner {
         display: flex;
@@ -29,6 +29,7 @@
         font-size: 14px;
 
         &::before {
+            content: "";
             position: absolute;
             width: 14px;
             height: 14px;
@@ -36,7 +37,6 @@
             left: 0;
             background-repeat: no-repeat;
             background-size: cover;
-            content: "";
         }
 
         &--location {

@@ -1,5 +1,4 @@
 .features {
-
     &__header {
         position: relative;
         margin-bottom: 24px;
@@ -11,8 +10,8 @@
         text-transform: uppercase;
 
         &::after {
-            position: absolute;
             content: "";
+            position: absolute;
             bottom: -6px;
             left: 0;
             width: 100%;
@@ -91,12 +90,5 @@
         margin: 0 -20px 0 -20px;
         padding: 0;
         list-style: none;
-    }
-
-    @media (max-width: 767px) {
-        pre {
-            // display: none;
-        }
-
     }
 }

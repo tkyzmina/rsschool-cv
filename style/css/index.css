@@ -369,6 +369,7 @@ template {
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  height: 100%;
 }
 
 html,
@@ -497,7 +498,7 @@ button,
 }
 
 .header {
-  background-color: bisque;
+  background-color: #ffe4c4;
 }
 
 .header__inner {
@@ -534,6 +535,7 @@ button,
 }
 
 .header__item::before {
+  content: "";
   position: absolute;
   width: 14px;
   height: 14px;
@@ -541,7 +543,6 @@ button,
   left: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  content: "";
 }
 
 .header__item--location::before {
@@ -608,6 +609,7 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: calc(100vh - 70px);
 }
 
 @media (max-width: 1023px) {
@@ -637,6 +639,29 @@ button,
       flex-shrink: 1;
 }
 
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+}
+
+.page {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.footer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
 .features__header {
   position: relative;
   margin-bottom: 24px;
@@ -649,8 +674,8 @@ button,
 }
 
 .features__header::after {
-  position: absolute;
   content: "";
+  position: absolute;
   bottom: -6px;
   left: 0;
   width: 100%;
@@ -737,9 +762,9 @@ button,
 }
 
 .footer {
-  background-color: bisque;
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: #ffe4c4;
 }
 
 .footer__list {
@@ -778,20 +803,20 @@ button,
 }
 
 .card {
-  margin: 20px;
   width: calc(100% / 3 - 40px);
   min-width: 150px;
+  margin: 20px;
 }
 
 .card__pop {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   display: none;
   color: #2aaee7;
   text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .card__link:hover img {

@@ -1,16 +1,16 @@
 .card {
-    margin: 20px;
     width: calc(100% / 3 - 40px);
     min-width: 150px;
+    margin: 20px;
 
     &__pop {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
         display: none;
         color: $color-blue;
         text-align: center;
+        transform: translate(-50%, -50%);
     }
 
     &__link {

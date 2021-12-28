@@ -1,7 +1,7 @@
 .footer {
-    background-color: bisque;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: $color-bisque;
 
     &__list {
         display: flex;
@@ -32,5 +32,4 @@
         font-weight: 600;
         color: $color-blue;
     }
-
 }
