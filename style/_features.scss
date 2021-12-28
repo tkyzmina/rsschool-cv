@@ -1,4 +1,5 @@
 .features {
+
     &__header {
         position: relative;
         margin-bottom: 24px;
@@ -86,10 +87,16 @@
 
     &__projects {
         display: flex;
-        margin: 0;
+        flex-wrap: wrap;
+        margin: 0 -20px 0 -20px;
         padding: 0;
         list-style: none;
     }
 
-    &__project {}
+    @media (max-width: 767px) {
+        pre {
+            // display: none;
+        }
+
+    }
 }

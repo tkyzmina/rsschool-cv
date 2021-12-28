@@ -38,7 +38,7 @@
                     </ul>
                 </nav>
             </div>
-            <img class="header__img" src="img/Tatyana Kyzmina.jpg" alt="Tatyana Kyzmina" width="200" height="207">
+            <img class="header__img" src="img/tk.jpg" alt="Tatyana Kyzmina" width="200" height="207">
         </div>
     </header>
 
@@ -79,27 +79,52 @@
             <section class="features">
                 <h2 class="features__header">My projects</h2>
                 <ul class="features__projects">
-                    <li class="features__project">One</li>
-                    <li class="features__project">Two</li>
+                    <li class="features__project card">
+                        <a class="card__link" href="https://tkyzmina.github.io/landing-page-test/"
+                            aria-label="Go to project page" target="_blank">
+                            <div class="card__img-wrapper">
+                                <div class="card__img">
+                                    <img src="img/projects/1.JPG" alt="Preview on project" width="641" height="641">
+                                    <span class="card__pop">Open on GitHub</span>
+                                </div>
+                            </div>
+                        </a>
+                        <p class="card__text">Adaptive landing page</p>
+                    </li>
+                    <li class="features__project card">
+                        <a class="card__link" href="https://tkyzmina.github.io/autoparts-shop/ "
+                            aria-label="Go to project page" target="_blank">
+                            <div class="card__img-wrapper">
+                                <div class="card__img">
+                                    <img src="img/projects/2.JPG" alt="Preview on project" width="641" height="641">
+                                    <span class="card__pop">Open on GitHub</span>
+                                </div>
+                            </div>
+                        </a>
+                        <p class="card__text">Adaptive page for online shop</p>
+                    </li>
+                    <li class="features__project card">
+                        <a class="card__link" href="https://tkyzmina.github.io/quest/choose.html"
+                            aria-label="Go to project page" target="_blank">
+                            <div class="card__img-wrapper">
+                                <div class="card__img">
+                                    <img src="img/projects/3.JPG" alt="Preview on project" width="641" height="641">
+                                </div>
+                                <span class="card__pop">Open on GitHub</span>
+                            </div>
+
+                        </a>
+                        <p class="card__text">Adaptive page</p>
+                    </li>
                 </ul>
             </section>
             <section class="features">
                 <h2 class="features__header">Code examples</h2>
+                <pre>
                 <code class="features__code">
-                    const renderList = () => {
-                        let container = document.querySelector(".section__list"); 
-                        let randomNum = Math.floor(Math.random() * 8 + 2);
-                        let element = document.querySelector(".accordion");
-                    
-                        for (let i = 0; i < randomNum; i++) {
-                          let clone = element.cloneNode(true);
-                          container.append(clone);
-                        }
-                        initAccordion();
-                      };
-                </code>
+console.log("Hello World!");
+                </code></pre>
             </section>
-
         </div>
         <div class="page__wrapper">
             <section class="features">
@@ -113,7 +138,7 @@
                 <h2 class="features__header">My skills</h2>
                 <ul class="features__skills-list">
                     <li class="features__skills-item">Coding
-                        <ul class="">
+                        <ul>
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>SASS</li>
