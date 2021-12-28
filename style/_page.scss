@@ -1,0 +1,39 @@
+.page {
+    display: flex;
+    min-height: calc(100vh - 70px);
+
+
+    @media (max-width: 1023px) {
+        flex-direction: column;
+
+        &__wrapper:first-of-type {
+            order: 2;
+        }
+    }
+
+    &__wrapper {
+        margin-right: 40px;
+        margin-bottom: 40px;
+        flex-shrink: 0;
+
+        &:last-of-type {
+            margin-right: 0;
+            flex-shrink: 1;
+        }
+    }
+}
+
+// makes footer always in the botom
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.page {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
