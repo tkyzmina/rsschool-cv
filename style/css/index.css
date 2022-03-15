@@ -524,41 +524,29 @@ button,
   padding: 0;
 }
 
+.header__link {
+  padding-left: 16px;
+}
+
 .header__item {
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: calc(100% / 2 - 27px);
   min-width: 250px;
   margin-right: 10px;
   margin-bottom: 10px;
-  padding-left: 24px;
   font-size: 14px;
 }
 
-.header__item::before {
-  content: "";
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  top: 5px;
-  left: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.header__item--location::before {
-  background-image: url("../../img/icons/location.png");
-}
-
-.header__item--discord::before {
-  background-image: url("../../img/icons/discord.png");
-}
-
-.header__item--email::before {
-  background-image: url("../../img/icons/email.png");
-}
-
-.header__item--tg::before {
-  background-image: url("../../img/icons/tg.png");
+.header__item svg {
+  width: 20px;
+  height: 20px;
+  overflow: visible;
+  fill: black;
 }
 
 .header__title {
